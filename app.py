@@ -91,7 +91,7 @@ elif audio_source == "Load media from URL":
     url = st.text_input(
         "URL",
         key="url",
-        value="https://static.deepgram.com/examples/interview_speech-analytics.wav",
+        value="https://www.youtube.com/watch?v=4HGNqFdaD34",
     )
 
     if url != "":
