@@ -122,4 +122,4 @@ def chat_stream(model: str, messages: Iterable[ChatCompletionMessageParam], **kw
             completion_time = usage.completion_time
             completion_tokens = usage.completion_tokens
             tps = completion_tokens/completion_time
-            yield f"\n\n_Tokens/sec: {round(tps, 2)}_"
+            # yield f"\n\n_Tokens/sec: {round(tps, 2)}_"
